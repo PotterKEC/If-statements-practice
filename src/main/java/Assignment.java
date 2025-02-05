@@ -1,40 +1,82 @@
+package main.java;
+
 public class Assignment {
-    // These variables will be used in the conditions
-    private int number1 = 42;
-    private int number2 = 7;
-    private double decimal = 3.14;
-    private String text = "123";
-
-    public void runConditions() {
-        // Condition 1: Use comparison between number1 and number2
-        if ( /* Your condition here */ ) {
-            System.out.println("First condition passed!");
-        }
-
-        // Condition 2: Convert text to integer and compare with number1
-        if ( /* Your condition here */ ) {
-            System.out.println("Second condition passed!");
-        }
-
-        // Condition 3: Use decimal in a comparison
-        if ( /* Your condition here */ ) {
-            System.out.println("Third condition passed!");
-        }
-
-        // Condition 4: Compare number2 cast to double with decimal
-        if ( /* Your condition here */ ) {
-            System.out.println("Fourth condition passed!");
-        }
-
-        // Condition 5: Use multiple comparisons with AND operator
-        if ( /* Your condition here */ ) {
-            System.out.println("Fifth condition passed!");
-        }
+    /**
+     * Exercise 1: Calculate movie ticket total
+     * Calculate the total cost for a family going to the movies:
+     * - Adult tickets cost $12.50 each (2 adults)
+     * - Child tickets cost $8.00 each (3 children)
+     * - Large popcorn costs $7.25 (1 popcorn to share)
+     */
+    public static double calculateMovieNight() {
+        // TODO: Implement this method
+        return 0.0;
     }
 
-    // Getter methods for testing
-    public int getNumber1() { return number1; }
-    public int getNumber2() { return number2; }
-    public double getDecimal() { return decimal; }
-    public String getText() { return text; }
+    /**
+     * Exercise 2a: Check if someone can rent a car
+     * Most rental companies require drivers to be 25 or older
+     * @param age the person's age
+     * @return true if age is 25 or older, false otherwise
+     */
+    public static boolean canRentCar(int age) {
+        // TODO: Implement this method
+        return false;
+    }
+
+    /**
+     * Exercise 2b: Check if password is valid length
+     * Password must be at least 8 characters
+     * @param password the password to check
+     * @return true if password length is 8 or more, false otherwise
+     */
+    public static boolean isValidPasswordLength(String password) {
+        // TODO: Implement this method
+        return false;
+    }
+
+    /**
+     * Exercise 2c: Check if it's time for an oil change
+     * Car needs oil change every 5000 miles
+     * @param mileage the current mileage
+     * @param lastChangeMileage the mileage at last oil change
+     * @return true if difference is 5000 or more, false otherwise
+     */
+    public static boolean needsOilChange(int mileage, int lastChangeMileage) {
+        // TODO: Implement this method
+        return false;
+    }
+
+    /**
+     * Exercise 3: Get message for divisible by 3
+     * @param number the number to check
+     * @return "Divisible by 3" if number is divisible by 3, "" otherwise
+     */
+    public static String getDivisibleByThreeMessage(int number) {
+        // TODO: Implement this method
+        return "";
+    }
+
+    /**
+     * Exercise 4: Determine if a year is a leap year
+     * @param year the year to check
+     * @return "Leap Year" if the year is a leap year, "Not Leap Year" otherwise
+     * Hint: a year is a leap year if it's divisible by 4, 
+     * except if it's divisible by 100 but not by 400
+     */
+    public static String getLeapYearMessage(int year) {
+        // TODO: Implement this method
+        return "";
+    }
+
+    /**
+     * Exercise 5: Get ticket price category
+     * @param age the person's age
+     * @return "Free" if age < 5, "Child Price" if age is 5-12, 
+     *         "Student Price" if age is 13-21, "Adult Price" if age is 22+
+     */
+    public static String getTicketPriceCategory(int age) {
+        // TODO: Implement this method
+        return "";
+    }
 }

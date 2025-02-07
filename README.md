@@ -48,19 +48,7 @@ Your assignment will be graded automatically when you push your code to GitHub. 
 - Code must compile without errors
 - Methods must be implemented according to specifications
 
-## Tips for Success
-1. Read the comments for each method carefully
-2. Test your code with different input values
-3. Make sure you understand the requirements before starting
-4. Commit and push your changes frequently
-5. Check the GitHub Actions tab to see if your code passes all tests
 
-## Getting Help
-If you have questions or need help:
-1. Review the lecture notes on operators and control flow
-2. Check the Java documentation
-3. Ask questions during class or office hours
-4. Post questions in the course discussion forum
 
 ## Submission
 - Commit and push your code to GitHub
